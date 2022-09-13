@@ -14,7 +14,6 @@ Veri seti: https://www.kaggle.com/datasets/bravehart101/sample-supermarket-datas
 - Satış adedi, gelir ve kâr bilgilerine göre en iyi olan kategoriler hangileri?
 - Gelir ve kâr bilgilerine göre en iyi olan alt kategoriler hangileri?
 - En fazla kullanılan teslimat yöntemi hangisi?
-- En kârlı müşteri segmenti hangisi?
 - Gelir ve kâr bilgilerine göre en iyi eyaletler hangileri?
 
 
@@ -25,7 +24,7 @@ ayıracak satış_id gibi bir kolon yok yani benzer satın alımlar yapılmış 
 
 ---
 
-## Kişifsel Veri Analizi
+## Keşifsel Veri Analizi
 
 #### Satış adedi, gelir ve kâr bilgilerine göre en iyi olan kategoriler hangileri?
 
@@ -57,6 +56,8 @@ Verinin grafikle gösterimi.
 
 ![img5](img/profit-by-subcategory.png)
 
+---
+
 ### En fazla kullanılan teslimat yöntemi hangisi?
 
 ![img6](img/ship-mode.png)
@@ -69,4 +70,31 @@ muhtemelen en ucuz seçenek standart teslimattır. Aynı gün teslimat ise ekstr
 Verinin grafikte gösterimi.
 
 ![img7](img/ship-mode-chart.png)
+
+---
+
+### Gelir ve kâr bilgilerine göre en iyi eyaletler hangileri?
+
+![img8](img/sales-by-state.png) ![img9](img/profit-by-state.png) ![img10](img/negatif-profit-by-state.png) 
+
+Burada en fazla satış yapılmış, en fazla kâr edilmiş ve en fazla zarar edilmiş 10 eyaleti görüyoruz. 
+Dikkat çeken eyalet Texas, iyi bir gelir elde edilmiş olmasına rağmen en fazla zarar edilen eyalet durumunda.
+Ayrıca Pennsylvania, Florida, Illinois, Ohio eyaletleri de en fazla gelir elde edilen 10 eyalet arasında olmalarına 
+rağmen zarar eden eyaletler arasındalar.
+
+Verilerin harita üzerinde gösterimleri.
+
+![img11](img/sales-map.png)
+
+![img12](img/profit-map.png)
+
+
+
+
+
+
+
+
+
+
 
