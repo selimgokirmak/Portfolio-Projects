@@ -10,7 +10,7 @@ product category, sub-category, sales, quantity, discount, profit" bilgilerini g
 
 Veri seti: https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset
 
-#### Cevap Aradığımız Temel Sorular
+#### Keşifsel Veri Analizi Temel Soruları
 - Satış adedi, gelir ve kâr bilgilerine göre en iyi olan kategoriler hangileri?
 - Gelir ve kâr bilgilerine göre en iyi olan alt kategoriler hangileri?
 - En fazla kullanılan teslimat yöntemi hangisi?
@@ -24,6 +24,8 @@ ABD'de olduğu için. Veride aynı satırlar var ancak silme gereği duymadım �
 ayıracak satış_id gibi bir kolon yok yani benzer satın alımlar yapılmış olabilir.
 
 ---
+
+## Kişifsel Veri Analizi
 
 #### Satış adedi, gelir ve kâr bilgilerine göre en iyi olan kategoriler hangileri?
 
@@ -54,4 +56,17 @@ Verinin grafikle gösterimi.
 ![img4](img/sales-by-subcategory.png)
 
 ![img5](img/profit-by-subcategory.png)
+
+### En fazla kullanılan teslimat yöntemi hangisi?
+
+![img6](img/ship-mode.png)
+
+Teslimat yöntemi olarak standart teslimatın 60% oranında, aynı gün teslimatın ise 
+5% oranında kullanıldığını görüyoruz. Teslimat fiyatlarını bilmiyoruz ancak 
+muhtemelen en ucuz seçenek standart teslimattır. Aynı gün teslimat ise ekstra pahalıdır bu yüzden
+çok az tercih edilmektedir.
+
+Verinin grafikte gösterimi.
+
+![img7](img/ship-mode-chart.png)
 
