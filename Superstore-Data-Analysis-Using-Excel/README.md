@@ -11,10 +11,10 @@ product category, sub-category, sales, quantity, discount, profit" bilgilerini g
 Veri seti: https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset
 
 #### Keşifsel Veri Analizi Temel Soruları
-- Satış adedi, gelir ve kâr bilgilerine göre en iyi olan kategoriler hangileri?
-- Gelir ve kâr bilgilerine göre en iyi olan alt kategoriler hangileri?
+- Satış adedi, gelir ve kâr verilerine göre en iyi olan kategori hangisi?
+- Gelir ve kâr verilerine göre en iyi olan alt kategoriler hangileri?
 - En fazla kullanılan teslimat yöntemi hangisi?
-- Gelir ve kâr bilgilerine göre en iyi eyaletler hangileri?
+- Gelir ve kâr verilerine göre en iyi eyaletler hangileri?
 
 
 ## Veriyi Hazırlama
@@ -26,7 +26,7 @@ ayıracak satış_id gibi bir kolon yok yani benzer satın alımlar yapılmış 
 
 ## Keşifsel Veri Analizi
 
-#### Satış adedi, gelir ve kâr bilgilerine göre en iyi olan kategoriler hangileri?
+#### Satış adedi, gelir ve kâr verilerine göre en iyi olan kategori hangisi?
 
 ![img1](img/quantity-sales-profit-by-category.png)
 
@@ -41,7 +41,7 @@ Verinin grafikle gösterimi.
 
 ---
 
-#### Gelir ve kâr bilgilerine göre en iyi olan alt kategoriler hangileri?
+#### Gelir ve kâr verilerine göre en iyi olan alt kategoriler hangileri?
 
 ![img3](img/quantity-sales-profit-by-subcategory.png)
 
@@ -73,7 +73,7 @@ Verinin grafikte gösterimi.
 
 ---
 
-### Gelir ve kâr bilgilerine göre en iyi eyaletler hangileri?
+### Gelir ve kâr verilerine göre en iyi eyaletler hangileri?
 
 ![img8](img/sales-by-state.png) ![img9](img/profit-by-state.png) ![img10](img/negatif-profit-by-state.png) 
 
