@@ -18,9 +18,8 @@ Veri seti: https://www.kaggle.com/datasets/bravehart101/sample-supermarket-datas
 
 
 ## Veriyi Hazırlama
-Veri seti zaten temizlenmiş bu yüzden bu aşamada sadece "country" kolonunu siliyorum tüm satışlar 
-ABD'de olduğu için. Veride aynı satırlar var ancak silme gereği duymadım çünkü satışları birbirinden 
-ayıracak satış_id gibi bir kolon yok yani benzer satın alımlar yapılmış olabilir.
+Veri seti zaten temizlenmiş durumda bu yüzden bu aşamada sadece "country" kolonunu siliyorum tüm satışlar 
+ABD'de olduğu için. 
 
 ---
 
