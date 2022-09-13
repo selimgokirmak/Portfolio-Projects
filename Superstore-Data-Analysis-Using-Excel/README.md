@@ -24,7 +24,7 @@ ABD'de olduğu için. Veride aynı satırlar var ancak silme gereği duymadım �
 ayıracak satış_id gibi bir kolon yok yani benzer satın alımlar yapılmış olabilir.
 
 ---
----
----
----
+
 #### Satış adedi, gelir ve kâr bilgilerine göre en iyi olan kategoriler hangileri?
+
+![img1](img/quantity-sales-profit-by-category.png)
