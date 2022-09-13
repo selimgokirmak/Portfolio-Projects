@@ -1,3 +1,3 @@
 ## Portfolio-Projects
 
-This repository holds portfolio projects.
+This repository holds Data Analysis portfolio projects.
