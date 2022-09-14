@@ -16,6 +16,7 @@ Veri seti: https://www.kaggle.com/datasets/bravehart101/sample-supermarket-datas
 - En fazla kullanılan teslimat yöntemi hangisi?
 - Gelir ve kâr verilerine göre en iyi eyaletler hangileri?
 - Kâr eden ve zarar eden satışların indirim ortalamaları nedir?
+- Alt kategorilerin indirim ortalamaları nedir?
 
 
 ## Veriyi Hazırlama
@@ -96,11 +97,24 @@ Kâr eden ve zarar eden satışları ayrı ayrı gruplayarak bu satışlarda uyg
 net kâr eden satışların indirim ortalamasını " 8% ", net zarar eden satışların indirim ortalamasını " 48% " 
 olarak hesaplıyoruz. Bu sonuçlara bakarak uygulanan yüksek indirimlerden dolayı zarar edildiğini söyleyebiliriz.
 
+---
 
+### Alt kategorilerin indirim ortalamaları nedir?
 
+![img13](img/discount-by-subcategory.png)
 
+Alt kategorilere göre indirim oranlarının ortalamalarına baktığımızda Bookcases ve Tables kategorilerinin ortalama 20% üzerinde indirimle zarar 
+ettiklerini görüyoruz. Ayrıca Binders kategorisi 37% indirim ortalaması ile satılmış olmasına rağmen iyi bir kâr miktarı elde edilmiş.
 
+---
 
+### Öneriler
 
+- Öncelikle zarar ederek satılan ürünlerdeki indirim miktarları kâr edecek şekilde tekrar ayarlanmalı.
+- Zarar edilen alt kategori gruplarının indirim oranları azaltılmalı ancak yeni fiyat durumunda bu ürünlerin satışları ciddi miktarda azalırsa bu durumda 
+satıştan kaldırılmaları düşünülmeli.
+- Düşük müşteri yoğunluğu olan eyaletlere zarar edilmeyecek şekilde ekstra indirimler uygulanabilir. Bu şekilde yeni müşteri kazanılması sağlanabilir.
+- Satış adedi ve kâr oranı yüksek alt kategorilerde ürün çeşitliliği artırılabilir.
+- Düşük satış adedine sahip ürünler farklı ürünlerle birlikte paket şeklinde satılabilirler.
 
 
