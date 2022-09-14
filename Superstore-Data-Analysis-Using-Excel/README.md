@@ -10,11 +10,12 @@ product category, sub-category, sales, quantity, discount, profit" bilgilerini g
 
 Veri seti: https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset
 
-#### Keşifsel Veri Analizi Temel Soruları
+#### Veri Analizi Temel Soruları
 - Satış adedi, gelir ve kâr verilerine göre en iyi olan kategori hangisi?
 - Gelir ve kâr verilerine göre en iyi olan alt kategoriler hangileri?
 - En fazla kullanılan teslimat yöntemi hangisi?
 - Gelir ve kâr verilerine göre en iyi eyaletler hangileri?
+- Kâr eden ve zarar eden satışların indirim ortalamaları nedir?
 
 
 ## Veriyi Hazırlama
@@ -23,9 +24,9 @@ ABD'de olduğu için.
 
 ---
 
-## Keşifsel Veri Analizi
+## Veri Analizi
 
-#### Satış adedi, gelir ve kâr verilerine göre en iyi olan kategori hangisi?
+### Satış adedi, gelir ve kâr verilerine göre en iyi olan kategori hangisi?
 
 ![img1](img/quantity-sales-profit-by-category.png)
 
@@ -40,7 +41,7 @@ Verinin grafikle gösterimi.
 
 ---
 
-#### Gelir ve kâr verilerine göre en iyi olan alt kategoriler hangileri?
+### Gelir ve kâr verilerine göre en iyi olan alt kategoriler hangileri?
 
 ![img3](img/quantity-sales-profit-by-subcategory.png)
 
@@ -87,7 +88,13 @@ Verilerin harita üzerinde gösterimleri.
 
 ![img12](img/profit-map.png)
 
+---
 
+### Kâr eden ve zarar eden satışların indirim ortalamaları nedir?
+
+Kâr eden ve zarar eden satışları ayrı ayrı gruplayarak bu satışlarda uygulanan indirim oranlarının ortalamalarına baktığımızda, 
+net kâr eden satışların indirim ortalamasını " 8% ", net zarar eden satışların indirim ortalamasını " 48% " 
+olarak hesaplıyoruz. Bu sonuçlara bakarak uygulanan yüksek indirimlerden dolayı zarar edildiğini söyleyebiliriz.
 
 
 
